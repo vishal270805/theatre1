@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+<style>
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.shop{
+    width:100%;
+    height:100vh;
+    background:rgb(110, 12, 71);
+    background-position: center;
+}
+nav 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0; 
+    background-color:black; 
+}
+
+nav img{
+    width:250px;
+    padding-left: 50px;   
+}
+nav ul{
+    width: 100%;
+    cursor: pointer;
+    text-align: right;
+}
+
+nav ul li{
+      
+    display: inline;
+    padding-right:80px;     
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(220, 26, 104);
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 173, 247);
+    transition: 0.2s;
+}
+
+
+.para {
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(232, 232, 232);
+    font-size: 25px;
+    filter: drop-shadow(5px 1px black);
+    
+}
+
+.para p{
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px;
+
+}
+span{
+    color: rgb(5, 187, 248);
+}
+
+
+.pic ul{
+    display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding-top:25px;
+  list-style: none;
+}
+
+.pic ul li img{
+ width:280px;
+ filter: drop-shadow(20px 2px  rgb(0, 0, 0));
+}
+
+.burger
+{
+    position: absolute;
+    left:600px;
+  
+} 
+
+</style>
+</head>
+<body>
+ <div class="shop">
+<nav>
+    <img class="logo" src="./folder1/logo.png"/>
+<ul>
+    <li><a href="./movies.html">MOVIES</a></li>
+    <li><a href="./events.html">EVENTS</a></li>
+    <li><a href="./theatre.html">THEATRE</a></li>
+    <li><a href="./timing.html">TIMINGS</a></li>
+    <li><a href="./dining.html">DINING</a></li>
+</ul>
+</nav>
+<div class="para">
+<h1>
+    MOVIES<br>OF<br> <span>2024</span>
+</h1>
+<p>We are here to give you<br>the best theatre experience.<br>Come with your friends and family <br>and feel the luxury.<br>Everyone should come<br> and enjoy the movie.</p></div>
+
+
+<div class="pic">
+    <ul>
+<li><img src="./folder1/2.png" /></li>
+<li><img src="./folder1/popcorn-removebg-preview.png"/></li>
+<li class="burger"><img src="./folder1/burger-removebg-preview.png"/></li>
+</ul>
+</div>
+ </div>
+</body>
+</html>

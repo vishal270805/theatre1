@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sedan+SC&display=swap" rel="stylesheet">
+    <style>
+        *{
+          padding: 0%;
+          margin:0%;
+          box-sizing: border-box;
+          font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+        }
+
+        body{
+          background: repeating-linear-gradient(to bottom,rgb(10,85,96),rgb(0,0,0));
+
+        }
+   nav{
+        width: 100%;
+        background-color: black;
+        padding:20px 0%;
+        color: rgb(211, 18, 105);
+    text-align: center;
+ letter-spacing: 2px;   
+ font-size: 23px;
+    }
+    nav:hover{
+      cursor: pointer;
+      color:aqua
+    }
+    
+
+
+    .container
+    {
+        display:grid;
+        width:100%;
+        height:100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr;
+        gap:10px;;
+    }
+
+    
+     .container img{
+      height:200px;
+      width:250px;
+      margin-top: 20px;
+      margin-left: 70px;
+      border: 5px solid rgb(42, 107, 94);
+      border-radius: 70%;
+      
+    
+  
+     }
+     .container img:hover{
+     width:400px;
+     height:250px;
+     transition: width 1s,height 1s,transform 1s;
+     transform: rotate(360deg);
+     z-index: 1;
+     object-fit: cover;
+     filter: drop-shadow(20px 20px 10px);
+     border-radius: 0%;
+     cursor: pointer;
+              
+          }
+        
+     
+      
+        
+        
+        
+        
+        
+        
+    
+
+
+
+    </style>
+</head>
+<body>
+  <div class="four">
+    <nav >DINING</nav>
+
+    <div class="container">
+      <img class="p1" src="./folder1/dining2.jpg"/>
+     <img class="p2" src="./folder1/dining3.jpg"/>
+     <img class="p3" src="./folder1/dining4.jpg"/>
+    <img class="p4" src="./folder1/dining.jpg" />
+    <img class="p5" src="./folder1/dining6.jpg"/>
+    <img class="p6" src="./folder1/dining7.jpg"/>
+    <img class="p7" src="./folder1/dining5.jpg"/>
+    <img class="p8" src="./folder1/dining8.jpg"/>
+    <img class="p9" src="./folder1/dining9.jpg" />
+    </div>
+
+
+
+
+  </div>  
+</body>
+</html>
